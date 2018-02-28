@@ -1,0 +1,78 @@
+.menu-tx, .header .topmenu .menu li a {
+  color: white;
+  font-size: 13px; }
+
+.social-ic, .header .topheader .social-bl div a {
+  height: 32px;
+  width: 32px;
+  background-color: #1f1f1f;
+  border-radius: 35px;
+  text-align: center;
+  color: white; }
+
+.header .topheader {
+  background-color: #373c42;
+  padding-bottom: 5px;
+  padding-top: 5px; }
+  .header .topheader .social-ic:hover, .header .topheader .social-bl div a:hover {
+    background-color: #c8232c;
+    cursor: pointer !important; }
+  .header .topheader .social-bl * {
+    display: inline-block; }
+  .header .topheader .social-bl div {
+    padding-left: 7px;
+    padding-right: 7px; }
+  .header .topheader .social-bl i {
+    vertical-align: middle;
+    margin-top: 6px; }
+  .header .topheader .social-fl {
+    float: left; }
+  .header .topheader .midheader .logo-fl {
+    float: left; }
+  .header .topheader .midheader .links-tx * {
+    color: #81b300;
+    font-size: 12px; }
+  .header .topheader .midheader .links-fl {
+    float: right;
+    margin-top: 45px; }
+.header .topmenu {
+  background-color: #81b300;
+  margin-top: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .header .topmenu .menu-fl {
+    float: left; }
+  .header .topmenu .menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px; }
+    .header .topmenu .menu li {
+      display: inline-block;
+      padding-right: 10px;
+      padding-left: 10px; }
+    .header .topmenu .menu li:nth-child(1) {
+      padding-left: 0px; }
+    .header .topmenu .menu li:nth-last-child(1) {
+      padding-right: 0px; }
+  .header .topmenu .search-fl {
+    float: right; }
+  .header .topmenu .search {
+    background-color: white;
+    width: 215px;
+    height: 32px;
+    border: none;
+    padding-left: 5px;
+    margin-top: 5px; }
+  .header .topmenu .search::placeholder {
+    color: #7f7f7f;
+    font-size: 12px; }
+  .header .topmenu .search-bt {
+    background-color: white;
+    color: #81b300;
+    font-size: 12px;
+    height: 32px;
+    width: 65px;
+    border: none;
+    margin-top: 5px; }
+
+/*# sourceMappingURL=style.css.map */

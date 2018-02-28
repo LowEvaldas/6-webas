@@ -1,2 +1,3 @@
-Testinam
-Testinam2
+<?php include 'header.php' ?>
+
+<?php include 'footer.php' ?>
