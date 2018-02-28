@@ -78,24 +78,15 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="upper menu ">
-                        <li><a href="#"><span class="blue">HomePage</span></a></li>
+                        <li><a href="#"><span>Home</span></a></li>
                         <li><a href="#"><span>Style&nbsp;Demo</span></a></li>
                         <li><a href="#"><span>Full&nbsp;Width</span></a></li>
                         <li><a href="#"><span>Dropdown</span></a></li>
                         <li><a href="#"><span>Portfolio</span></a></li>
                         <li><a href="#"><span>Gallery</span></a></li>
+                        <li><a href="#"><span>Long Text Link</span></a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="search-fl">
-                <form class="navbar-form" role="search">
-                    <div class="input-group add-on">
-                        <input class="search" placeholder="Search Our Website..." name="srch-term" id="srch-term" type="text">
-                        <div class="input-group-btn">
-                            <button class="search-bt upper mini-radius" type="submit">Search</button>
-                        </div>
-                    </div>
-                </form>
             </div>
                 </nav>
         </div>

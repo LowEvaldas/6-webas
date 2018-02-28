@@ -1,6 +1,6 @@
 .menu-tx, .header .topmenu .menu li a {
   color: white;
-  font-size: 13px; }
+  font-size: 12px; }
 
 .social-ic, .header .topheader .social-bl div a {
   height: 32px;
@@ -64,24 +64,65 @@
     border: none;
     margin-top: 5px;
     font-weight: 600; }
-.header .topmenu {
-  background-color: #81b300;
-  margin-top: 35px;
-  padding-top: 15px;
-  padding-bottom: 15px; }
-  .header .topmenu .menu-fl {
-    float: left; }
-  .header .topmenu .menu {
-    list-style: none;
-    padding: 0px;
-    margin: 0px; }
-    .header .topmenu .menu li {
-      display: inline-block;
-      padding-right: 10px;
-      padding-left: 10px; }
-    .header .topmenu .menu li:nth-child(1) {
-      padding-left: 0px; }
-    .header .topmenu .menu li:nth-last-child(1) {
-      padding-right: 0px; }
+.header .topmenu .container {
+  background-color: #31363c;
+  padding-left: 0px; }
+.header .topmenu .navbar {
+  padding: 0px; }
+.header .topmenu .menu-fl {
+  float: left; }
+.header .topmenu .menu {
+  list-style: none;
+  padding: 0px;
+  margin: 0px; }
+  .header .topmenu .menu li {
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .header .topmenu .menu li:hover {
+    background-color: #202326; }
+
+.content .mainimg {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f2f2f2; }
+.content .mainimg * {
+  text-align: center; }
+.content .articles {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .content .articles * {
+    text-align: center; }
+  .content .articles h1 {
+    color: #81b300;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px; }
+  .content .articles p {
+    color: #888888;
+    font-size: 13px; }
+.content .projects {
+  margin-top: 40px; }
+  .content .projects h1 {
+    color: #444444;
+    font-size: 14px;
+    margin-top: 15px; }
+  .content .projects p {
+    color: #878787;
+    font-size: 13px; }
+  .content .projects img, .content .projects h1 {
+    padding-left: 10%;
+    padding-right: 10%; }
+  .content .projects p {
+    padding-left: 10%;
+    margin-bottom: 0px; }
+  .content .projects .more * {
+    color: #81b300;
+    font-size: 13px;
+    margin-top: 10px; }
+  .content .projects .more-fl {
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */
