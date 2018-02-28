@@ -52,6 +52,17 @@
                 <div class="logo-fl">
                         <img class="img-responsive" src="img/logo.png"></img>
                 </div>
+
+                <div class="search-fl">
+                <form class="navbar-form" role="search">
+                    <div class="input-group add-on">
+                        <input class="search" placeholder="Search Our Website..." name="srch-term" id="srch-term" type="text">
+                        <div class="input-group-btn">
+                            <button class="search-bt upper mini-radius" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
                 
             </div>
         </div>
