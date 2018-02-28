@@ -35,7 +35,15 @@
                             <div><a href="#"><i class="fa fa-rss"></i></a></div>
                     </div>
                 </div>
-                
+
+                <div class="links-fl">
+                    <div class="links-tx">
+                        <span><a href="#">AZ Index</a> |</span>
+                        <span><a href="#">Staff Login</a> |</span>
+                        <span><a href="#">Student Login</a></span>
+                    </div>
+                </div>
+           
             </div>
     </div>
         
@@ -44,14 +52,7 @@
                 <div class="logo-fl">
                         <img class="img-responsive" src="img/logo.png"></img>
                 </div>
-                <div class="links-fl">
-                    <div class="links-tx">
-                        <span><a href="#">Sign Up</a> |</span>
-                        <span><a href="#">Lyghogin</a> |</span>
-                        <span><a href="#">RSS Feeds</a> |</span>
-                        <span><a href="#">Archived News</a></span>
-                    </div>
-                </div>
+                
             </div>
         </div>
 

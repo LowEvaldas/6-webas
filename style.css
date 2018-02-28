@@ -5,14 +5,14 @@
 .social-ic, .header .topheader .social-bl div a {
   height: 32px;
   width: 32px;
-  background-color: #1f1f1f;
+  background-color: #4c555e;
   border-radius: 35px;
   text-align: center;
   color: white; }
 
 .header .topheader {
   background-color: #373c42;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
   padding-top: 5px; }
   .header .topheader .social-ic:hover, .header .topheader .social-bl div a:hover {
     background-color: #c8232c;
@@ -27,14 +27,13 @@
     margin-top: 6px; }
   .header .topheader .social-fl {
     float: left; }
-  .header .topheader .midheader .logo-fl {
-    float: left; }
-  .header .topheader .midheader .links-tx * {
-    color: #81b300;
+  .header .topheader .links-tx * {
+    color: #999999;
     font-size: 12px; }
-  .header .topheader .midheader .links-fl {
-    float: right;
-    margin-top: 45px; }
+  .header .topheader .links-fl {
+    float: right; }
+.header .midheader .logo-fl {
+  float: left; }
 .header .topmenu {
   background-color: #81b300;
   margin-top: 35px;
