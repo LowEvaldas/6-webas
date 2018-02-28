@@ -45,14 +45,14 @@ $maincolor: #81b300;
 }
 
 .content{
-    .mainimg{ padding-top:40px; padding-bottom:40px; background-color: #f2f2f2;}
+    .mainimg{ padding-top:40px; padding-bottom:40px; }
     .mainimg * {text-align: center}
     .articles{
         *{text-align: center;}
         margin-top:40px;
         margin-bottom:40px;
-        h1{color: $maincolor; font-size:18px; font-weight: 300; margin-top:15px}
-        p{color: #888888; font-size: 13px}
+        h1{color: #4c555e; font-size:18px; font-weight: 300; margin-top:15px; font-weight: 600}
+        p{color: #7f7d77; font-size: 13px}
     }
     .projects{
         margin-top:40px;
@@ -63,4 +63,46 @@ $maincolor: #81b300;
         .more *{color:$maincolor; font-size:13px; margin-top:10px}
         .more-fl{float:right}
     }
+}
+
+
+@media screen and (min-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+     .search {width: 105px !important; margin-top:5px}
+     .search-bt{margin-top:5px}
+     .search::placeholder{ font-size:10px !important}
+      .menu li {padding-right:5px !important; padding-left:5px !important}
+      .mainimg img{width: 100% !important}
+      .projects *{text-align: center}
+      .projects img, .articles img {margin-top:30px !important}
+      .footup *{text-align: center !important}
+}
+
+@media screen and (max-width: 768px) {
+  .search{width: 100% !important}
+  .search-bt{margin-top: 0px}
+  .search::placeholder{ font-size:16px !important}
+  .input-group-btn{margin-top:10px; width: 100% !important}
+  .search-bt, .form-bt, .contacts input{width: 100% !important}
+  .menu li {display: block !important; border-bottom: 1px solid white}
+  .menu-tx{font-size:20px}
+  .logo-fl, .social-fl, .links-fl, .more-fl{text-align: center !important; float:none !important}
+  .social-fl{margin-right:0px !important}
+  .links-fl{margin-top:5px !important}
+  .topmenu{margin-top:10px !important}   
+}
+
+@media screen and (max-width: 480px) {
+  .copy-fl, .temp-fl {float:none !important; text-align: center}   
 }
